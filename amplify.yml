@@ -12,9 +12,9 @@ frontend:
         -npm install react-scripts --save
     build:
       commands: 
-        -npm run react-scripts build
+        -npm run build
   artifacts:
-    baseDirectory: idata-monitoring
+    baseDirectory: build
     files:
       - '**/*'
   cache:
