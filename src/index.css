@@ -1,0 +1,1324 @@
+body {
+  margin: 0 auto;
+  font-family: "Source Sans Pro", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f0f7 !important;
+  height: 100%;
+}
+
+.table-header-wrapper {
+  position: sticky;
+  top: 0;
+}
+
+.container .table-responsive {
+  max-height: 67vh;
+}
+
+.table-responsive {
+  max-height: 67vh;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.container {
+  overflow-y: scroll;
+  overflow-x: auto !important;
+  overflow: auto;
+  width: 100% !important;
+  display: block;
+  max-height: 67vh;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .container {
+    max-width: 100%;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container {
+    max-width: 100%;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 100%;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .dtSetRow {
+    max-width: 100%;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .dtSetRow {
+    max-width: 100%;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .dtSetRow {
+    max-width: 100%;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .dtSetRow {
+    max-width: 100%;
+  }
+}
+@media (max-width: 425px) {
+  .datasetForm {
+    display: flex;
+    flex-direction: column;
+  }
+  .MuiStepper-root {
+    padding: 0px !important;
+  }
+}
+.navbar {
+  height: 70px !important;
+  padding: 0px !important;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.05);
+}
+.navLink {
+  text-decoration: none !important;
+  color: #b6b6b6;
+  padding-left: 14px;
+  transition: color 0.5s ease-in;
+}
+.navLink:hover {
+  text-decoration: none !important;
+  font-weight: 600;
+  color: #4d4f5c;
+  padding-left: 14px;
+}
+.navbar li > .active {
+  font-weight: bold;
+}
+.tabWrapper {
+  padding: 60px;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #4d4f5c;
+  font-weight: 600;
+  background-color: #fff;
+  border: 0px !important;
+  width: 80px;
+  text-align: center;
+}
+.nav-tabs .nav-link {
+  border: 0px;
+  width: 80px;
+  text-align: center;
+  background-color: #f8f8f8;
+  color: #a6a7ad;
+}
+.nav-tabs {
+  border: 0px !important;
+  border-bottom: 0px !important;
+}
+.tabCont {
+  padding-top: 20px;
+  padding-bottom: 24px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.05);
+}
+th {
+  color: #ffffff;
+  background-color: #343a40;
+}
+td {
+  font-size: 0.9em;
+}
+button.MuiStepButton-root:focus {
+  outline: none !important;
+  outline-offset: none !important;
+}
+td:focus {
+  outline: none !important;
+}
+.form-control {
+  display: initial !important;
+}
+.selectOpt {
+  color: darkgray;
+  background: #fafafa;
+}
+.hudiPrecombine {
+  color: grey !important;
+  background: #fafafa;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+#formGridState {
+  background: #fafafa;
+}
+.form-control::-webkit-input-placeholder {
+  color: #bec6cc;
+}
+.form-control:-moz-placeholder {
+  color: #bec6cc;
+}
+.form-control::-moz-placeholder {
+  color: #bec6cc;
+}
+.form-control::placeholder {
+  color: #bec6cc;
+}
+.form-control:-ms-input-placeholder {
+  color: #bec6cc;
+}
+.selectOptState {
+  width: inherit !important;
+  color: #bec6cc;
+}
+.formLabel {
+  color: darkslategray;
+}
+.form-row {
+  margin-bottom: 28px;
+}
+.btn-back {
+  background: #343a40;
+}
+@media (max-width: 320px) {
+  .logsGroup {
+    width: 100%;
+  }
+  .col-sm-7 {
+    padding-right: 0px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .btnSave {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding: 0;
+    width: 103px !important;
+    height: 39px;
+  }
+  .radioUpsert {
+    flex-basis: 0;
+    flex-grow: 1;
+    min-width: 0;
+    max-width: 100%;
+  }
+  .radioPartition {
+    flex-basis: 0;
+    flex-grow: 1;
+    min-width: 0;
+    max-width: 100%;
+  }
+  .radioGroup {
+    flex-basis: 0;
+    flex-grow: 1;
+    min-width: 0;
+    max-width: 100%;
+  }
+  .formControlRadio {
+    width: 18px !important;
+    height: 18px !important;
+    padding: 6px;
+    background-clip: content-box;
+    border-radius: 50%;
+  }
+  .btnSelect {
+    width: 100% !important;
+  }
+  .addColRuleBtn {
+    width: 48% !important;
+  }
+  .sourceSchDb {
+    width: 100%;
+  }
+  .row {
+    display: block;
+  }
+  .col-6 {
+    width: 100% !important;
+    max-width: 100%;
+  }
+  .col-10 {
+    float: left;
+    padding-right: 0px !important;
+  }
+  .col-2 {
+    float: left;
+  }
+  .form-Dataset {
+    margin-top: 11px;
+    margin-bottom: 10px;
+  }
+  .dsConfForm {
+    width: 100% !important;
+  }
+  .dsConfFormDs {
+    padding-top: 60px !important;
+    width: 100% !important;
+  }
+  table thead,
+  table tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: auto;
+  }
+  .dedupeCount {
+    color: blue;
+    font-size: 10px !important;
+    padding-top: 6px !important;
+  }
+  .btnAddColumnRule {
+    font-size: 12px;
+    width: 77% !important;
+  }
+  .tabContDatasetConf {
+    width: 100% !important;
+  }
+  .css-yk16xz-control {
+    width: 100% !important;
+  }
+  .select__control--is-focused {
+    width: 100% !important;
+  }
+  .form-row {
+    margin-bottom: 0px !important;
+  }
+  .refreshBtnDiv {
+    margin-top: 20px !important;
+    padding-left: 250px !important;
+  }
+  .MuiStepper-root {
+    padding: 0px !important;
+    margin-top: 45px !important;
+  }
+  .updateRow {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 374.99px) {
+  .logsGroup {
+    width: 100%;
+  }
+  .tabWrapper {
+    padding: 60px 10px 0 10px;
+  }
+  .tabContDatasetConf {
+    width: 100% !important;
+  }
+  .css-yk16xz-control {
+    width: 100% !important;
+  }
+  .select__control--is-focused {
+    width: 100% !important;
+  }
+  .form-Dataset {
+    padding-right: 0px !important;
+  }
+  .formTitl {
+    font-size: 20px;
+  }
+  .arrow-right {
+    margin-top: -1px;
+  }
+  .makeStyles-root-1 {
+    padding-top: 34px;
+    margin-top: 0px !important;
+  }
+  .MuiStepper-root {
+    padding: 0px !important;
+    padding-top: 0px !important;
+  }
+  .MuiStepButton-root {
+    padding: 24px 32px;
+    box-sizing: content-box;
+}
+  .MuiStep-horizontal {
+    padding-right: 0px !important;
+  }
+  .sourceSchForm {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  .btnSave {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding: 0;
+    width: 103px !important;
+    height: 39px;
+  }
+  .radioUpsert {
+    flex-basis: 0;
+    flex-grow: 1;
+    min-width: 0;
+    max-width: 100%;
+  }
+  .radioPartition {
+    flex-basis: 0;
+    flex-grow: 1;
+    min-width: 0;
+    max-width: 100%;
+  }
+  .radioGroup {
+    flex-basis: 0;
+    flex-grow: 1;
+    min-width: 0;
+    max-width: 100%;
+  }
+  .formControlRadio {
+    width: 18px !important;
+    height: 18px !important;
+    padding: 6px;
+    background-clip: content-box;
+    border-radius: 50%;
+  }
+  .btnSelect {
+    width: 100% !important;
+  }
+  .sourceSchDb {
+    width: 100%;
+  }
+  .row {
+    display: block;
+  }
+  .col-6 {
+    width: 100% !important;
+    max-width: 100%;
+  }
+  .col-10 {
+    float: left;
+    padding-right: 0px !important;
+  }
+  .col-2 {
+    float: left;
+  }
+  .form-Dataset {
+    margin-top: 11px;
+    margin-bottom: 10px;
+  }
+  .dsConfForm {
+    width: 100% !important;
+  }
+  table thead,
+  table tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: auto !important;
+  }
+  .btnAddColumnRule {
+    width: 63% !important;
+  }
+  .bs-popover-right {
+    transform: translate3d(87px, 384px, 0px) !important;
+  }
+}
+@media (min-width: 321px) and (max-width: 374.99px) {
+  .refreshBtnDiv {
+    margin-top: 20px !important;
+    padding-left: 300px !important;
+  }
+}
+@media (min-width: 375.1px) and (max-width: 424.99px) {
+  .logsGroup {
+    width: 100%;
+  }
+  .btnSave {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding: 0;
+    width: 103px !important;
+    height: 39px;
+  }
+  .btnSelect {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding: 0;
+    width: 103px !important;
+    height: 39px;
+  }
+  .formTitl {
+    font-size: 20px;
+  }
+  .dsConfForm {
+    width: 100% !important;
+  }
+  .dsConfFormDs {
+    padding-top: 60px !important;
+    width: 100% !important;
+  }
+  .tabWrapper {
+    padding: 60px 0 0 0 !important;
+  }
+  .radioUpsert {
+    flex-basis: 0;
+    flex-grow: 1;
+    min-width: 0;
+    max-width: 100%;
+  }
+  .radioPartition {
+    flex-basis: 0;
+    flex-grow: 1;
+    min-width: 0;
+    max-width: 100%;
+  }
+  .radioGroup {
+    flex-basis: 0;
+    flex-grow: 1;
+    min-width: 0;
+    max-width: 100%;
+  }
+  .formControlRadio {
+    width: 18px !important;
+    height: 18px !important;
+    padding: 6px;
+    background-clip: content-box;
+    border-radius: 50%;
+  }
+  .btnSelect {
+    width: 100% !important;
+  }
+  .sourceSchDb {
+    width: 100%;
+  }
+  .row {
+    display: block;
+  }
+  .processFilter {
+    width: 100% !important;
+  }
+  .col-6 {
+    width: 100% !important;
+    max-width: 100%;
+  }
+  .css-yk16xz-control {
+    width: 100% !important;
+  }
+  .select__control--is-focused {
+    width: 100% !important;
+  }
+  .bs-popover-right {
+    transform: translate3d(87.5px, 277.5px, 0px) !important;
+  }
+  .col-10 {
+    float: left;
+  }
+  .col-2 {
+    float: left;
+  }
+  .form-Dataset {
+    margin-top: 11px;
+    margin-bottom: 10px;
+  }
+  .radio-item {
+    padding-left: 13px;
+  }
+  table thead,
+  table tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: auto !important;
+  }
+  .btnAddColumnRule {
+    font-size: 12px;
+    width: 51% !important;
+  }
+  .form-row {
+    margin-bottom: 0px !important;
+  }
+  .refreshBtnDiv {
+    margin-top: 20px !important;
+    padding-left: 376px !important;
+  }
+  .form-row {
+    margin-bottom: 0px !important;
+  }
+  .refreshBtnDiv {
+    margin-top: 20px !important;
+    padding-left: 376px !important;
+  }
+  .processFilter {
+    width: 100% !important;
+  }
+  .MuiStepper-root {
+    padding: 0px !important;
+    margin-top: 85px !important;
+  }
+  .MuiStepButton-root {
+    padding: 24px 26px;
+    box-sizing: content-box;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .logsGroup {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  .formControlRadio {
+    width: 18px !important;
+    height: 18px !important;
+    padding: 6px;
+    background-clip: content-box;
+    border-radius: 50%;
+  }
+  .bs-popover-righ {
+    transform: translate3d(718.5px, 323px, 0px) !important;
+  }
+  /* .MuiStep-horizontal {
+    padding-left: 44px !important;
+    padding-right: 8px;
+  }
+  .MuiStepButton-root {
+    width: 20% !important;
+    margin: -24px -16px;
+    padding: 24px 16px;
+    box-sizing: content-box;
+  }*/
+  /*  .jsonStepper {
+    padding-left: 81px !important;
+  }
+  .jsonStepperBtn {
+    width: 10% !important;
+  }*/
+}
+/* @media (min-width: 425.1px) and (max-width: 767.99px) { 
+  .logsGroup {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  .dsConfForm   {
+    width: 80% !important;
+  }
+  table thead, table tbody tr th {
+    display: table;
+    width: 100%;
+    table-layout: auto !important;
+  }
+  .btnAddColumnRule {
+    width: 54% !important;
+  }
+  .col-10 {
+    flex: 0 0 83.333333% !important;
+    max-width: 82.333333% !important;
+  }
+ }*/
+.loader {
+  color: blue;
+  font-family: "Source Sans Pro", sans-serif;
+  display: inline;
+}
+.btnNewDs {
+  float: "right";
+}
+.dtSetRow {
+  width: 100%;
+}
+.descr {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 1px;
+}
+/*tr:hover .descr {
+  overflow: visible; 
+  white-space: normal;
+}*/
+/*.dstConfLabel {
+  float: left !important;
+}*/
+.dstConfLabelPby {
+  /* padding-left: 3%;*/
+  float: left !important;
+  color: #007bff;
+}
+.formTitl {
+  font-weight: bold;
+  color: #4d4f5c;
+  text-align: center;
+}
+.tabContDatasetConf {
+  width: 70%;
+  padding-top: 20px;
+  padding-bottom: 24px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.05);
+  justify-content: center;
+  align-items: center;
+  display: block;
+  position: relative;
+}
+.arrRight {
+  float: right;
+}
+.arrLeft {
+  float: left;
+}
+.dsConfForm {
+  padding-top: 60px;
+  width: 70%;
+}
+.dsConfFormDs {
+  padding-top: 60px !important;
+  width: 80%;
+}
+.sourceSchForm {
+  padding-top: 60px;
+  width: 100%;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.addNewRowFormSource {
+  padding-left: 50px;
+}
+.stepper {
+  padding-top: 35px;
+}
+.form-group {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 320px) {
+  .form-group {
+    width: 100%;
+  }
+  table thead,
+  table tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: auto !important;
+  }
+  .makeStyles-root-1 {
+    margin-top: 0px !important;
+  }
+  .MuiStepper-root {
+    padding: 0px !important;
+  }
+  .MuiStepButton-root {
+    padding: 24px 30px;
+    box-sizing: content-box;
+  }
+  .makeStyles-root-1 {
+    padding-top: 1px !important;
+  }
+  .addColRuleBtn {
+    width: 48% !important;
+  }
+  .btnAddColumnRule {
+    font-size: 12px;
+    width: 77% !important;
+  }
+  .dedupeCount {
+    color: blue;
+    font-size: 10px;
+    padding-top: 6px;
+  }
+  .bs-popover-right {
+    transform: translate3d(40px, 277px, 0px) !important;
+  }
+  .form-row {
+    margin-bottom: 0px !important;
+  }
+  .refreshBtnDiv {
+    margin-top: 20px !important;
+    padding-left: 250px !important;
+  }
+  #formGridLogsName {
+    width: 100% !important;
+  }
+}
+@media (max-width: 374.99px) {
+  .form-group {
+    width: 100%;
+  }
+  .radio-item {
+    padding-left: 13px;
+  }
+  .addColRuleBtn {
+    width: 48% !important;
+  }
+  .btnAddColumnRule {
+    font-size: 12px;
+    width: 63% !important;
+  }
+  .dsConfFormDs {
+    padding-top: 60px !important;
+    width: 100% !important;
+  }
+  .form-row {
+    margin-bottom: 0px !important;
+  }
+  .refreshBtnDiv {
+    margin-top: 20px !important;
+    padding-left: 300px !important;
+  }
+  .MuiStepButton-root {
+    padding: 24px 33px;
+    box-sizing: content-box;
+  }
+}
+@media (min-width: 375.1px) and (max-width: 424.99px) {
+  .form-group {
+    width: 100%;
+  }
+  .sourceSchForm {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .addNewRowFormSource {
+    padding-left: 0px;
+  }
+  .addColRuleBtn {
+    width: 48% !important;
+  }
+  .processFilter {
+    width: 100% !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .form-all {
+    width: 9%;
+    margin-left: 0px;
+  }
+  .form-dataset-name {
+    width: 43%;
+  }
+  .form-status {
+    width: 25%;
+  }
+  .form-result {
+    width: 13%;
+  }
+  .col {
+    padding-right: 0;
+    padding-left: 15px;
+  }
+  .btnAddColumnRule {
+    width: 35% !important;
+  }
+  .MuiStepButton-root {
+    padding: 24px 25px;
+    box-sizing: content-box;
+  }
+}
+@media (min-width: 1024.1px) and (max-width: 1440px) {
+  .addGlueRow {
+    padding-left: 65px;
+  }
+  .selectGlueSchemaType {
+    padding-left: 88px;
+  }
+  .btnAddColumnRule {
+    width: 22% !important;
+  }
+  .MuiStepper-root {
+    padding: 0px !important;
+    margin-top: 85px !important;
+  }
+  .makeStyles-root-1 {
+    margin-top: 105px !important;
+  }
+}
+@media (max-width: 575px) {
+  .glueValName {
+    margin-bottom: 15px;
+  }
+  .addNewRowFormSource {
+    padding-left: 0px !important;
+  }
+}
+
+
+
+@media (min-width: 1000) and (max-width: 1440) {
+  table tbody {
+    max-height: 1000px;
+  }
+}
+
+@media (min-width: 425.1px) and (max-width: 767.99px) {
+  .form-all {
+    width: 9%;
+    margin-left: 17px;
+  }
+  .form-dataset-name {
+    font-size: 14px;
+    width: 31%;
+  }
+  .form-status {
+    font-size: 14px;
+    width: 25%;
+  }
+  .form-result {
+    font-size: 14px;
+    width: 13%;
+  }
+  .col {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  #formGridDatasetName {
+    width: 80px;
+  }
+  #formGridStatus {
+    width: 89px;
+  }
+  .btnAddColumnRule {
+    width: 55% !important;
+  }
+  .bs-popover-right {
+    transform: translate3d(331px, 253px, 0px);
+  }
+  .logsGroup {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  .dsConfForm {
+    width: 80% !important;
+  }
+  table thead,
+  table tbody tr th {
+    display: table;
+    width: 100%;
+    table-layout: auto !important;
+  }
+  .btnAddColumnRule {
+    width: 54% !important;
+  }
+  .col-10 {
+    flex: 0 0 83.333333% !important;
+    max-width: 82.333333% !important;
+  }
+  .bs-popover-right {
+    transform: translate3d(473.5px, 253px, 0px) !important;
+  }
+  .MuiStepButton-root {
+    padding: 24px 21px;
+    box-sizing: content-box;
+  }
+  .btnClear {
+    padding: .375rem .275rem;
+  }
+}
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 10%;
+  height: 10%;
+  padding-top: 1px;
+  padding-left: 16px;
+  background-clip: content-box;
+  border: 3px solid #3b86ff;
+  background-color: #e7e6e7;
+  border-radius: 50%;
+}
+.formControlRadio {
+  display: flex;
+  align-items: center;
+}
+.makeStyles-root-1 {
+  margin-top: 68px;
+}
+.invArr {
+  visibility: hidden;
+}
+.fa-pencil,
+.fa-trash,
+.fa-chevron-down {
+  color: grey !important;
+}
+.fa-trash {
+  padding-left: 26px;
+}
+.table {
+  margin-bottom: 0 !important;
+}
+.keyCol {
+  display: none;
+}
+.sourcSchTbl {
+  margin-top: 90px;
+}
+.btnAddRow {
+  background-color: transparent;
+  border: none;
+  color: lightgray;
+  font-size: x-large;
+}
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: transparent;
+  color: gray;
+  border: none;
+}
+.btnAddRow:hover {
+  background-color: transparent !important;
+  color: gray;
+}
+input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  padding: 6px;
+  background-clip: content-box;
+  border: 2px solid #bbbbbb;
+  background-color: #e7e6e7;
+  border-radius: 50%;
+}
+.radio-item {
+  display: flex;
+  align-items: center;
+}
+input[type="radio"]:checked {
+  background-color: #3f51b5 !important;
+  border: 2px solid #3f51b5;
+}
+.opth5 {
+  font-weight: bold;
+  color: #4d4f5c;
+}
+.clsIcn {
+  width: 8%;
+  height: 8%;
+}
+.tooltipTitl {
+  margin-bottom: 18px;
+}
+.fgTooltip {
+  margin-bottom: 11px !important;
+}
+.frmGrpLast {
+  padding-bottom: 45px;
+  border-bottom: 1px solid lightgrey;
+}
+.btnSelect {
+  width: 100%;
+}
+.btnSave {
+  background: #43425d;
+  color: lightgrey;
+  width: 30%;
+  border: none;
+}
+.formPartitionByDeactive {
+  display: none;
+}
+.error {
+  color: red;
+  display: inline-block;
+  font-size: 11px;
+}
+.selection-cell {
+  width: 5%;
+}
+.updateRow {
+  margin-top: 40px;
+}
+.formLabelNone {
+  display: none;
+}
+.select-filter {
+  display: none !important;
+}
+.text-filter {
+  display: none !important;
+}
+table tbody {
+  /*display: block;*/
+  max-height: 700px;
+  overflow-y: scroll;
+}
+table thead,
+table tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+table thead {
+  position: sticky;
+  top: 0;
+}
+
+.react-bs-table table {
+  table-layout: auto !important;
+}
+th[data-row-selection] {
+  width: 5%;
+}
+.select-option.is-selected {
+  display: none;
+}
+.dropdown {
+  font-family: sans-serif;
+  text-align: center;
+}
+a:hover {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+.threedots:after {
+  content: "\2807";
+  font-size: 0.9em;
+  color: #343a40;
+  text-decoration: none !important;
+}
+.deleteModal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ccc;
+  background: #fff;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+}
+.myoverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+.btn-danger {
+  border-color: #f2b704 !important;
+  color: #212529;
+  background-color: #f2b704;
+  box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px inset, rgba(238, 162, 54, 0.6) 0px 0px 8px;
+}
+.btn-danger:hover {
+  border-color: rgb(212, 63, 50) !important;
+}
+.react-dropdown-select-input {
+  width: 100%;
+}
+.columnForm {
+  width: 100%;
+}
+pre {
+  color: white;
+}
+.btnAddColumnRule {
+  float: right;
+  width: 20%;
+  background: #43425d;
+  color: lightgrey;
+  border: none;
+}
+.modal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  border-bottom: none;
+  border-top-left-radius: calc(0.3rem - 1px);
+  border-top-right-radius: calc(0.3rem - 1px);
+}
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: rgb(67, 66, 93);
+  color: lightgray;
+  border: none;
+}
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  height: 40px;
+}
+.pTransform {
+  display: block;
+  margin-top: none;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 1rem;
+}
+.paramError {
+  padding-left: 44.666667%;
+}
+.dedupeCount {
+  color: blue;
+  font-size: 14px;
+}
+.fa-copy {
+  padding-right: 5px;
+  padding-left: 26px;
+}
+.dedupeFields {
+  padding-left: 0px !important;
+}
+.react-dropdown-select {
+  height: 50px;
+}
+.refreshBtnDiv {
+  padding-right: 15px;
+}
+.processFilter {
+  width: 26% !important;
+}
+.react-dropdown-select-content span {
+  padding: 10px 0 0 14px;
+}
+.formUpload {
+  width: 100%;
+}
+#uploadFormId {
+  padding-left: 0px !important;
+}
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+a.btn.btn-lg.btn-primary {
+  display: none;
+}
+@media (min-width: 1440) {
+  table tbody {
+    max-height: 1000px;
+    overflow-y: scroll;
+  }
+  .MuiStepper-root {
+    padding: 0px !important;
+    margin-top: 85px !important;
+  }
+}
+.table thead th {
+  border-right: 1px solid white !important;
+}
+
+.MuiStepButton-root {
+  margin: -24px auto !important;
+  width: 42px !important;
+  display: block !important;
+}
+
+@media (min-width: 881px) and (max-width: 941px) {
+  .MuiStepButton-root {
+    margin: -24px auto !important;
+    width: 30px !important;
+    display: block !important;
+  }
+}
+
+@media (min-width: 848px) and (max-width: 881px) {
+  .MuiStepButton-root {
+    margin: -24px auto !important;
+    width: 25px !important;
+    display: block !important;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 848px) {
+  .MuiStepButton-root {
+    margin: -24px auto !important;
+    width: 18px !important;
+    display: block !important;
+  }
+}
+
+@media (min-width: 713px) and (max-width: 740px) {
+  .MuiStepButton-root {
+    margin: -24px auto !important;
+    width: 12px !important;
+    display: block !important;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 713px) {
+  .MuiStepButton-root {
+    margin: -24px -8px !important;
+    width: 5px !important;
+    display: block !important;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 550px) {
+  .MuiStepButton-root {
+    margin: -24px -9px !important;
+    width: 5px !important;
+    display: block !important;
+  }
+}
+.tooltip > .tooltip-inner {
+  max-width: 1000px;
+  text-align: left;
+  font-size: 12px;
+}
+
+.homeDiv {
+  float: right;
+}
+.arrowDiv {
+  padding-top: 30px;
+}
+
+.icnHome {
+  padding-bottom: 6px;
+}
+
+.slcType {
+  position: absolute;
+}

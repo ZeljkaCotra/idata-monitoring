@@ -1,0 +1,22 @@
+version: 0.1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        -npm install webpack-dev-server --save-dev
+        -npm install --save react-dropdown-select
+        -npm install react-select
+        -npm install jquery
+        -npm install --save-dev cross-env
+        -npm install aws-param-store --save
+        -npm install react-scripts --save
+    build:
+      commands: 
+        -npm run react-scripts build
+  artifacts:
+    baseDirectory: idata-monitoring
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
