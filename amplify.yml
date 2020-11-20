@@ -3,6 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
+        -cd idata-monitoring
         -npm install webpack-dev-server --save-dev
         -npm install --save react-dropdown-select
         -npm install react-select
